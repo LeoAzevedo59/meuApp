@@ -96,21 +96,15 @@ export default class App extends Component {
         <TouchableOpacity onPress={this.enviar}>
           <Text>Enviar</Text>
         </TouchableOpacity>
-
-
+        
         <View>
-          {/* <Text>Fila de espera: </Text>
+          <Text>Fila de espera: </Text>
           <Text>{this.state.Pessoa[0].Nome}</Text>
           <Text>{this.state.Pessoa[0].Idade}</Text>
           <Text>{this.state.Pessoa[0].Sexo}</Text>
           <Text>{this.state.Pessoa[0].Estudante}</Text>
-          <Text>{this.state.Pessoa[0].Limite}</Text> */}
+          <Text>{this.state.Pessoa[0].Limite}</Text>
           <Text>Fila de espera: </Text>
-          <Text>{"Leonardo"}</Text>
-          <Text>{"24 anos"}</Text>
-          <Text>{"Masculino"}</Text>
-          <Text>{"R$ 500,00"}</Text>
-          <Text>{"Estudante"}</Text>
         </View>
       </View>
     )
